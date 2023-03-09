@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:tryber/sd-029-b-project-tryunfo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "thalles-leite-sd-029-b-project-tryunfo"]
+	remote = origin
+	merge = refs/heads/thalles-leite-sd-029-b-project-tryunfo
